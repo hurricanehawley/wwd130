@@ -1,4 +1,9 @@
 
+.main-para {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
 body {
     text-align: center;
   }
@@ -10,4 +15,9 @@ body {
   a {
     color: white;
     margin: 40px;
+  }
+
+  #active {
+    background-color: white;
+    color: steelblue; 
   }
