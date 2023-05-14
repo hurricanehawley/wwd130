@@ -1,0 +1,45 @@
+nav, footer {
+    text-align: center;
+    background-color: rgb(160, 73, 88);
+
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(160, 73, 88);
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 1, 1);
+}
+
+h1,h1,p {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+h1,h1,p,p,p,p{
+    font-size: 10px;
+    color: rgb(10, 1, 1);
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2,h2,p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+h2,h2,p,p,p{
+    font-size: 10px;
+    color: rgb(10, 1, 1);
+}

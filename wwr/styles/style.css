@@ -1,0 +1,166 @@
+body{
+    background-color: #00b4d8;
+}
+
+header{
+    background-color: #bde0fe;
+}
+
+nav a{
+    background-color: #b99b3f; 
+}
+
+nav a:hover{
+    background-color: #0077b6;
+}
+
+.book{
+    background-color: white;
+}
+
+.join{
+    background-color: #8fc6ee;
+}
+
+.book:hover{
+    background-color: #D4AC0D;
+}
+
+.join:hover{
+    background-color: #00b4d8;
+}
+
+#background{
+    background-color: #bde0fe;
+}
+
+.msg{
+    background-color: #9abbe7
+}
+
+footer{
+    background-color: #0077b6;
+}
+
+nav a{
+    background-color: #b99b3f;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #0077b6;
+    color: #b4c0c7;    
+}
+
+.home-title{
+    background-color: #080704;
+    color: #d9c2a3;
+}
+
+h4{
+    background-color: #b99b3f;  
+    color: #080704;
+}
+
+.book{
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.join{
+    background-color: #a7abad;
+    color: black;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.book:hover{
+    background-color: #D4AC0D;
+    color: #0077b6;  
+}
+
+.join:hover{
+    background-color: #00b4d8;
+    color: black;
+}
+
+.msg h2{
+    background-color: white;
+    color: black;
+}
+
+.msg p{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px
+}
+
+#hero-img{
+    width: 100px;
+}
+
+nav a{
+    text-align: center;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
