@@ -1,0 +1,18 @@
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+img a{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+img b{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
