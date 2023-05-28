@@ -7,6 +7,14 @@ body{
     padding: 0;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 50px;
+}
+
 header{
     background-color: #bde0fe;
 }
@@ -59,7 +67,8 @@ nav a{
 
 nav a:hover{
     background-color: #0077b6;
-    color: #b4c0c7;    
+    color: #b4c0c7;
+    text-align: center;    
 }
 
 .home-title{
@@ -155,11 +164,16 @@ footer a:hover{
 
 #hero-img{
     width: 100px;
+
 }
 
 nav a{
     text-align: center;
     padding: 35px;
+}
+
+.navbar ul{
+    text-align: center;
 }
 
 #hero-msg h1{
