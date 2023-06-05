@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ewert&family=Smokum&display=swap');
-body{
+
+body {
     background-color: #00b4d8;
     font-family: 'Regular 400', sans-serif;
     font-size: 22px;
@@ -7,7 +8,7 @@ body{
     padding: 0;
 }
 
-.center{
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,83 +16,66 @@ body{
     padding: 50px;
 }
 
-header{
+header {
     background-color: #bde0fe;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
 }
 
-nav a{
-    background-color: #b99b3f; 
+nav a {
+    background-color: #b99b3f;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #0077b6;
 }
 
-.book{
-    background-color: white;
-}
 
-.join{
-    background-color: #8fc6ee;
-}
 
-.book:hover{
-    background-color: #D4AC0D;
-}
-
-.join:hover{
-    background-color: #00b4d8;
-}
-
-#background{
-    background-color: #bde0fe;
-}
-
-.msg{
+.msg {
     background-color: #9abbe7;
     line-height: 1.5em;
     padding: 35px;
 }
 
-footer{
+footer {
     background-color: #0077b6;
     padding: 25px;
 }
 
-nav a{
+nav a {
     background-color: #b99b3f;
     text-align: center;
     color: black;
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #0077b6;
     color: #b4c0c7;
-    text-align: center;    
+    text-align: center;
 }
 
-.home-title{
-    background-color: #080704;
+.home-title {
+    /* background-color: #080704; */
     color: #d9c2a3;
     font-family: 'Regular 400', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 
-h4{
-    background-color: #b99b3f;  
+h4 {
+    /* background-color: #b99b3f;   */
     color: #080704;
 }
 
-.book{
+.book,
+.join {
     background-color: white;
     color: black;
     text-align: center;
@@ -101,39 +85,25 @@ h4{
     border-radius: 5px;
 }
 
-.join{
-    background-color: #a7abad;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    padding: 30px;
-    margin: 50px; 
-    border-radius: 5px;
-}
-
-.book:hover{
+.book:hover,
+.join:hover {
     background-color: #D4AC0D;
-    color: #0077b6;  
+    color: #0077b6;
 }
 
-.join:hover{
-    background-color: #00b4d8;
-    color: black;
-}
-
-.msg h2{
+.msg h2 {
     background-color: white;
     color: black;
     margin: 0;
 }
 
-.msg p{
+.msg p {
     background-color: white;
     color: black;
     padding-bottom: 15px;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     padding: 25px 50px;
@@ -143,110 +113,101 @@ footer{
     align-items: center;
 }
 
-footer a{
-    background-color: white;
-    color: black;
+footer a {
+    color: white;
     text-align: center;
     text-decoration: none;
 }
 
-footer a:hover{
-    background-color: white;
-    color: black;
-}
 
-#content{
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
-#logo_link{
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-.icon{
+.icon {
     width: 80px;
     padding-top: 10px;
 }
 
-#hero{
+#hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
-#hero-box{
+#hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-#hero-img{
+#hero-img {
     width: 100px;
 
 }
 
-nav a{
+nav a {
     text-align: center;
     padding: 35px;
 }
 
-.navbar ul{
+.navbar ul {
     text-align: center;
 }
 
-#hero-msg{
+#hero-msg {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
 }
 
-#hero-msg h4{
+#hero-msg h4 {
     text-align: center;
     color: white;
 }
 
-.home-grid{
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.card-img, .mountains{
+.card-img,
+.mountains {
     width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 8;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img{
+.card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover{
+.card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
 
-.rivers-card{
+.rivers-card {
     margin: 200px 0;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 3;  
+    grid-row-end: 3;
 }
 
-.camping-card{
+.camping-card {
     margin: 200px 0;
     border: 10px;
     color: black;
@@ -256,7 +217,7 @@ nav a{
     grid-row-end: 3;
 }
 
-.rapids-card{
+.rapids-card {
     margin: 200px 0;
     grid-column-start: 8;
     grid-column-end: 10;
@@ -264,11 +225,12 @@ nav a{
     grid-row-end: 3;
 }
 
-.button-box{
+.button-box {
     text-align: center;
 }
 
-main section, .msg{
+main section,
+.msg {
     text-align: center;
     grid-column-start: 6;
     grid-column-end: 10;
@@ -276,63 +238,80 @@ main section, .msg{
     grid-row-end: 7;
 }
 
-main section img{
+main section img {
     box-sizing: border-box;
 }
 
-#background{
+#background {
     height: 725px;
+    background-color: #bde0fe;
     grid-column-start: 1;
     grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: 9;
 }
 
-footer p{
+footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+
+    #hero,
+    .home-grid {
         display: block;
         height: auto;
     }
-    nav, footer {
+
+    nav,
+    footer {
         flex-direction: column;
     }
+
     nav a {
         display: block;
         padding: 15px;
     }
+
     #hero {
         margin-top: 0;
     }
+
     #hero-msg {
         margin-top: 0;
     }
+
     #hero-msg h4 {
         display: none;
     }
+
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
         margin: 50px auto;
         width: 60%;
     }
+
     #background {
         display: none;
     }
-    .mountains, .msg {
+
+    .mountains,
+    .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
     }
+
     footer {
         margin-top: 25px;
     }
