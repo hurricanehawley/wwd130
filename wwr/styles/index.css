@@ -5,7 +5,7 @@ body {
     font-family: 'Regular 400', sans-serif;
     font-size: 22px;
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 
 header {
@@ -236,6 +236,55 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+/* This is the start of Page 2 in the River Rafting website*/
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.attack-img{
+    grid-column: 1/7;
+    width: 100px;
+    padding-left: 20px; 
+}
+
+.attack-msg{
+    grid-column: 7/10;
+    padding-left: 0;
+}
+
+.bend-msg{
+    grid-column: 1/4;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.bend-img{
+    width: 50px;
+    grid-column: 6/9;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.relax-img{
+    grid-column: 1/7;
+    width:150px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.relax-msg{
+    grid-column: 7/10;
+    padding-left: 0;
+}
+
+
 
 @media screen and (max-width: 900px) {
 

@@ -1,0 +1,25 @@
+img{
+    width: 1500px;
+}
+
+main{
+    text-align: center;
+    display: grid;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 5em;
+}
+
+.msg h3{
+    font-size: 4em;
+}
+
+footer{
+    display: grid;
+    
+}
