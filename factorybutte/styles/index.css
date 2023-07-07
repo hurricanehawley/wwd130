@@ -111,7 +111,7 @@ footer{
 
 @media screen and (max-width: 900px) {
 
-    #hero,
+    #flight,
     .home-grid {
         display: block;
         height: auto;
@@ -127,15 +127,15 @@ footer{
         padding: 15px;
     }
 
-    #hero {
+    #flight {
         margin-top: 0;
     }
 
-    #hero-msg {
+    #flight-msg {
         margin-top: 0;
     }
 
-    #hero-msg h4 {
+    #flight-msg h1 {
         display: none;
     }
 
